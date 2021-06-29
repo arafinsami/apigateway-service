@@ -1,6 +1,5 @@
 server:
   port: 8888
-  address: localhost
 spring:
   application:
     name: apigateway-service
@@ -26,8 +25,6 @@ eureka:
     healthcheck:
       enabled: true
   instance:
-    hostname: ${server.address}
-    ip-address: ${server.address}
     prefer-ip-address: true
 
 management:
