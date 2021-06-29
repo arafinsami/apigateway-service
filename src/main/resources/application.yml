@@ -1,6 +1,6 @@
 server:
   port: 8888
-  address: https://apigateway-service.herokuapp.com/
+  address: localhost
 spring:
   application:
     name: apigateway-service
